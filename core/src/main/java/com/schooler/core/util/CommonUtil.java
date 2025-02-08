@@ -1,10 +1,10 @@
 package com.schooler.core.util;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class CommonUtil {
-    public String formatMessage(String message) {
-        return "You dit it: " + message;
+    public String someUtilityMethod() {
+        return "Hello from CommonUtil!";
     }
 }
