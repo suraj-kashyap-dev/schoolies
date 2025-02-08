@@ -1,4 +1,4 @@
-package com.schooler.admin.controller;
+package com.schooler.app.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

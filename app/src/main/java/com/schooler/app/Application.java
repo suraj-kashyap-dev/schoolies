@@ -1,13 +1,13 @@
-package com.schooler.admin;
+package com.schooler.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.schooler.core", "com.schooler.admin"})
-public class AdminApplication {
+@ComponentScan(basePackages = {"com.schooler.core", "com.schooler.app"})
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(AdminApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
